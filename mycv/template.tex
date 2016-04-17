@@ -1,0 +1,99 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2011 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+% moderncv themes
+\moderncvtheme[blue]{classic}                  % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+% adjust the page margins
+\usepackage[scale=0.9]{geometry}
+\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Sayan}
+\familyname{Samanta}
+\title{Curriculum Vitae}               % optional, remove the line if not wanted
+\address{}{Purba Medinipur, West Bengal, India}    % optional, remove the line if not wanted
+\mobile{(+91)9175926939}                    % optional, remove the line if not wanted
+%\phone{020-41227684}                     % optional, remove the line if not wanted
+\email{sayansamanta1994@gmail.com}                      % optional, remove the line if not wanted
+%\homepage{http://www.cse.iitd.ernet.in/(tilde)mcs103515}                % optional, remove the line if not wanted
+\photo[64pt][0pt]{picture}                         % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\section{Education}
+%\cventry{2012}{M.Tech. in Computer Science and Engineering}{Indian Institute of Technology Delhi}{New Delhi}{\textit{CGPA 8.966}(Current)}{}  % arguments 3 to 6 can be left empty
+\cventry{2015}{Bachelor of Computer Application}{Vidyasagar University}{Midnapore}{\textit{Score: 60.64\%}}{}
+\cventry{2012}{West Bengal Council of Higher Secondary Education}{Dakshin Moyna High School}{Purba Medinipur}{\textit{Score: 72\%}}{}
+\cventry{2010}{West Bengal Board of Secondary Education}{Moyna Adarsha Shikshayatan}{Purba Medinipur}{\textit{Score: 60\%}}{}
+\\
+\section{Technical Skills}
+\cvline{\small Programming Languages}{\small C}
+\cvline{\small Web Technologies}{\small HTML, CSS, Javascript, PHP, ASP.NET, SQL.}
+\cvline{\small Softwares}{\small NetBeans IDE, Git, Microsoft Visual Studio, MySQL}
+\\
+\section{Projects}
+\cventry{Apr 2015-Aug 2015}{PBC Intramail}{mentored by}{Mr. Suman Das}{Asst. Prof (Vidyasagar University)}
+{\small This was my BCA project. In this project, we created a social networking website for our college intranet. We had implemented user profile system through which users can exchange their personal information with their peers. We also had implemented a full-fledged mailing system in this project which included inbox, compose, draft, reply, forward, trash and block.}
+\cvlistitem{Technologies: ASP.NET with VB, Visual Studio Express 2010}
+\cvlistitem{\url{https://github.com/githubsayansamanta/PBC-Intramail}}
+\\
+\cventry{Mar 2016-Ongoing}{R.N. Tagore Online Store}{mentored by}{Mr. Partha Bera}{M.Tech (IIT Delhi)}
+{In this project, I have developed a simple website for online book store for better learning of various web technologies. Till now, I have implemented register, login, password recovery,  profile management, shopping cart and dummy payment in this project. For future scope, I have thought about having wishlist, order history etc.}
+\cvlistitem{Technologies: HTML, CSS, Javascript, PHP, MySQL, NetBeans IDE}
+\cvlistitem{\url{https://github.com/githubsayansamanta/Online-Store}}
+\\
+\section{Courses}
+\cvline{Semester 1}{\small Computer Fundamentals and Application Software, Programming in "C", Discrete Mathematics, Digital Electronics.}
+\cvline{Semester 2}{\small Computer Organization and Architecture, Data Structures, Mathematical Foundation, Financial and Management Accounting, System Analysis and Design.}
+\cvline{Semester 3}{\small Design and analysis of Algorithm, System Programming, Computer Oriented Numerical method and Statistical method, Database Management System, Microprocessor.}
+\cvline{Semester 4}{\small Object Oriented programming using C++, Operating System, Operation Research, Software Engineering , Computer Network.}
+\cvline{Semester 5}{\small OOPS using JAVA, Profession Values and Ethics, .(dot)NET Technology, Web Design and Application.}
+\cvline{Semester 6}{\small OOAD using UML, Advanced OS, Computer Graphics and Multimedia, Project (Industrial).}
+\\
+\section{Qualifying Examinations}
+\cvline{MH MCA-CET 2016}{Rank: 76.45 \%tile Score: 81/200(General Aptitude: 19/100 + Computer Concepts: 62/100)}
+\cvline{WBJECA 2015}{Rank: 1140/7000(approx)}
+\\
+\section{Other Interests}
+\cvline{}{Sports(Was an active member of our college sports club), Trekking, PC Games}
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
