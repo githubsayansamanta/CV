@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.26)  17 APR 2016 14:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.26)  17 APR 2016 22:54
 entering extended mode
 **template.tex
-(C:\Users\Partha_Bera\Downloads\Compressed\mycv\template.tex
+(C:\cygwin64\home\Partha.Bera\CV\mycv\template.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\Partha_Bera\Downloads\Compressed\mycv\moderncv.cls
+(C:\cygwin64\home\Partha.Bera\CV\mycv\moderncv.cls
 Document Class: moderncv 2011/11/06 v0.13 modern curriculum vitae document clas
 s
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
@@ -147,7 +147,7 @@ File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 \xargs@toksa=\toks17
 \xargs@toksb=\toks18
 )
-(C:\Users\Partha_Bera\Downloads\Compressed\mycv\moderncvcompatibility.sty
+(C:\cygwin64\home\Partha.Bera\CV\mycv\moderncvcompatibility.sty
 Package: moderncvcompatibility 2011/11/06 v0.13 modern curriculum vitae compati
 bility patches
 )
@@ -164,7 +164,7 @@ LaTeX Font Info:    Try loading font information for U+mvs on input line 271.
 \listdoubleitemmaincolumnwidth=\skip57
 \bibindent=\skip58
 
-(C:\Users\Partha_Bera\Downloads\Compressed\mycv\tweaklist.sty))
+(C:\cygwin64\home\Partha.Bera\CV\mycv\tweaklist.sty))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks19
@@ -520,7 +520,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip59
 )
-(C:\Users\Partha_Bera\Downloads\Compressed\mycv\moderncvthemeclassic.sty
+(C:\cygwin64\home\Partha.Bera\CV\mycv\moderncvthemeclassic.sty
 Package: moderncvthemeclassic 2011/11/06 v0.13 modern curriculum vitae style: c
 lassic
 Package color Info: Redefining color firstnamecolor on input line 67.
@@ -543,7 +543,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \maketitlepicturewidth=\skip63
 \maketitledetailswidth=\skip64
 )
-(C:\Users\Partha_Bera\Downloads\Compressed\mycv\template.aux)
+(C:\cygwin64\home\Partha.Bera\CV\mycv\template.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
@@ -625,8 +625,8 @@ LaTeX Info: Redefining \ref on input line 44.
 LaTeX Info: Redefining \pageref on input line 44.
 LaTeX Info: Redefining \nameref on input line 44.
 
-(C:\Users\Partha_Bera\Downloads\Compressed\mycv\template.out)
-(C:\Users\Partha_Bera\Downloads\Compressed\mycv\template.out)
+(C:\cygwin64\home\Partha.Bera\CV\mycv\template.out)
+(C:\cygwin64\home\Partha.Bera\CV\mycv\template.out)
 \@outlinefile=\write3
 Package hyperref Info: Option `breaklinks' set `true' on input line 44.
 
@@ -708,8 +708,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--76
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Partha_Bera/Down
-loads/Compressed/mycv/picture.jpg>]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/cygwin64/home/Partha.B
+era/CV/mycv/picture.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 77--80
 
  []
@@ -722,7 +722,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--86
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
 [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
- (C:\Users\Partha_Bera\Downloads\Compressed\mycv\template.aux)
+ (C:\cygwin64\home\Partha.Bera\CV\mycv\template.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `template.out' has not changed.
@@ -730,8 +730,8 @@ Package rerunfilecheck Info: File `template.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  7161 strings out of 493921
- 102934 string characters out of 3144858
- 200779 words of memory out of 3000000
+ 102744 string characters out of 3144858
+ 200761 words of memory out of 3000000
  10324 multiletter control sequences out of 15000+200000
  48107 words of font info for 40 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -747,7 +747,7 @@ ss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C
 6)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Program Files (x86)/MiKTeX 
 2.9/fonts/type1/public/marvosym/marvosym.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on template.pdf (2 pages, 252565 bytes).
+Output written on template.pdf (2 pages, 251305 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
